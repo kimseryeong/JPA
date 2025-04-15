@@ -1,9 +1,9 @@
 # Study JPA 
 
 ## 🗂️ List
-```
 📂 Persistence Manage/
-├── 📂 [persistence context](/docs/persistenceManage/persistence-context.md)
-├── 📂 [entity lifeCycle](/docs/persistenceManage/entity-lifeCycle.md)
-├── 📂 [flush](/docs/persistenceManage/flush.md)
-```
+<br>├── 📂 [persistence context](/docs/persistenceManage/persistence-context.md)
+<br>├── 📂 [entity lifeCycle](/docs/persistenceManage/entity-lifeCycle.md)
+<br>├── 📂 [flush](/docs/persistenceManage/flush.md)
+<br>├── 📂 [detached](/docs/persistenceManage/detached.md)
+
