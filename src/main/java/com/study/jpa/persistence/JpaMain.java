@@ -1,6 +1,8 @@
-package com.study.jpa;
+package com.study.jpa.persistence;
 
 import java.util.List;
+
+import com.study.jpa.Member;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -80,4 +82,5 @@ public class JpaMain {
 		em.remove(member);
 		
 	}
+	
 }

@@ -1,0 +1,19 @@
+<!-- 순수 JPA 환경 예시 -->
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.1">
+  <persistence-unit name="jpabook">
+    <class>com.study.jpa.Member</class>
+    <properties>
+	    <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+	    <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5433/todo_api"/>
+	    <property name="javax.persistence.jdbc.user" value="todo_user"/>
+	    <property name="javax.persistence.jdbc.password" value="todo_pass"/>
+	    
+		<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+		<property name="hibernate.hbm2ddl.auto" value="create"/>
+		<property name="hibernate.show_sql" value="true"/>
+    </properties>
+    
+
+  </persistence-unit>
+</persistence>
