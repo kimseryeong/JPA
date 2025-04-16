@@ -1,6 +1,6 @@
 package com.study.jpa.persistence;
 
-import com.study.jpa.Member;
+import com.study.jpa.entity.Member;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -14,7 +14,7 @@ public class Merge {
 	public static void main(String args[]) {
 		Member member = createMember("memberA", "회원1");
 		
-		member.setUserName("first mem"); //준영속 상태에서 변경
+		member.setUserName("firstMem"); //준영속 상태에서 변경
 		
 		mergeMember(member);
 	}

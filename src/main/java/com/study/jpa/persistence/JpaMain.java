@@ -2,7 +2,7 @@ package com.study.jpa.persistence;
 
 import java.util.List;
 
-import com.study.jpa.Member;
+import com.study.jpa.entity.Member;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
